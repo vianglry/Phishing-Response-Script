@@ -64,7 +64,26 @@ For those that didn't interact with the email...
 
 
 For those that interacted with the email...
-- 
+- Delete the email from their inbox
+
+Identity
+- Change user password
+- Change password for apps
+- Lock out all user sections
+- Check login activity across windows, apps, and files
+
+Network
+- Check incoming/outgoing connections
+
+Computer
+- Quarantine the computer
+- Check created processes
+- Virus scan
+
+
+
+
+
 
 
 
