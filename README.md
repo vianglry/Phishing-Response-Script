@@ -34,7 +34,7 @@ DISCONTINUE RESPONSE
 
 If confirmed to be a phishing email...
 
-BLOCK USER ACCESS WITH THE MALICOUS URL
+BLOCK USER ACCESS TO THE MALICOUS URL (FIREWALL, DNS FILTERING, ECT)
 
 
 
@@ -46,6 +46,7 @@ CHECK THE IMPACT OF THE EMAIL
 - named recipients
 - forwarding rules
 - delegate access
+- distribution groups
 
 
 
@@ -70,21 +71,31 @@ For those that didn't interact with the email...
 
 For those that interacted with the email...
 
-- Delete the email from their inbox
+Interview users
+- Did you open the email?
+- Did you click a link/Open an attachment?
 
 Identity
-- Change user password
+- Lock out all user sessions
+- Change user passwords
 - Change password for apps
-- Lock out all user sections
 - Check login activity across windows, apps, and files
+   Time stamps, devices, app IDs, user-agent string
 
 Network
 - Check incoming/outgoing connections
+- List App IDs to which the users have access
 
-Computer
-- Quarantine the computer
+Computer/Devices
+- List computers and devices under the user's control 
+- Quarantine the devices with suspicious logins
 - Check created processes
 - Virus scan
+- Device forensics
+
+Applications
+- Apps to which the users have access
+- Time stamps, user-agent string
 
 
 
