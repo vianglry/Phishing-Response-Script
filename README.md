@@ -3,7 +3,9 @@ A repository for a script that automates parts of the phisihing response procedu
 
 Sources:
 The phishing response playbook in Microsoft Docs
+
 https://docs.microsoft.com/en-us/security/compass/incident-response-playbook-phishing
+
 https://raw.githubusercontent.com/MicrosoftDocs/security/main/compass/media/incident-response-playbook-phishing/PI_flow.png
 
 
@@ -25,11 +27,13 @@ Links
 
 
 If confirmed to be a false positive...
+
 DISCONTINUE RESPONSE
 
 
 
 If confirmed to be a phishing email...
+
 BLOCK USER ACCESS WITH THE MALICOUS URL
 
 
@@ -59,11 +63,13 @@ CHECK USER INTERACTION WITH HE EMAIL
 
 
 For those that didn't interact with the email...
+
  - Delete the email from their inbox
 
 
 
 For those that interacted with the email...
+
 - Delete the email from their inbox
 
 Identity
